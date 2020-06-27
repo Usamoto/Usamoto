@@ -1,0 +1,83 @@
+h1 {
+  text-shadow: 0 0 3px #ff0000, 0 0 5px #0000ff;
+  text-align: center;
+
+} /* I forgot the curly bracket but fixed it!*/
+
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border: 1px solid #e7e7e7;
+  background-color: #f3f3f3;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: #666;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #ddd;
+}
+
+
+body  {
+  background-color: azure;
+  border: 5px dotted aquamarine;
+  padding: 30px;
+}
+
+
+img {
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+
+div {
+  background-color: aquamarine;
+  border-top-right-radius:30px;
+  border-top-left-radius:30px;
+  border-bottom-right-radius:30px;
+  border-bottom-left-radius:30px;
+}
+
+.paragraph {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.list-item {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* change footer color so the color appears only on the letters */
+footer {
+  background-color: aquamarine; 
+  text-align: center;
+  margin-right: 200px;
+  margin-left: 200px;
+ 
+} 
